@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Cyber_Bot1\\Cyber_Bot1.csproj": {}
+    "C:\\Users\\User\\Desktop\\CyberBulling\\TG_Bot\\Cyber_Bot1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Cyber_Bot1\\Cyber_Bot1.csproj": {
+    "C:\\Users\\User\\Desktop\\CyberBulling\\TG_Bot\\Cyber_Bot1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Cyber_Bot1\\Cyber_Bot1.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\CyberBulling\\TG_Bot\\Cyber_Bot1.csproj",
         "projectName": "Cyber_Bot1",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Cyber_Bot1\\Cyber_Bot1.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\CyberBulling\\TG_Bot\\Cyber_Bot1.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Cyber_Bot1\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\CyberBulling\\TG_Bot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "System.Net.Requests": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "Telegram.Bot": {
               "target": "Package",
               "version": "[17.0.0, )"
@@ -68,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
