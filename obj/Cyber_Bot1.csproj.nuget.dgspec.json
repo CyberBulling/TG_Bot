@@ -44,10 +44,6 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
-            "System.Net.Requests": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
             "Telegram.Bot": {
               "target": "Package",
               "version": "[17.0.0, )"

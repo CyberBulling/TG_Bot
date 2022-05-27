@@ -21,14 +21,13 @@ namespace TelegramBotExperiments
 				var message = update.Message;
 				if (message.Text.ToLower() == "/start")
 				{
-					await botClient.SendTextMessageAsync(message.Chat, "Добро пожаловать на борт, добрый путник!");
-					return;
+					await botClient.SendTextMessageAsync(message.Chat, "Добро пожаловать на борт!");
 				}
 				else if (message.Text.ToLower() == "hi" || message.Text.ToLower() == "привет")
 				{
 					await botClient.SendTextMessageAsync(message.Chat, "Hello");
 				}
-				else if (message.Text.ToLower() == "--help")
+				else if (message.Text.ToLower() == "/help")
 				{
 					await botClient.SendTextMessageAsync(message.Chat, $"1./start \n2.hi / привет \n3./joke ");
 				}
@@ -42,7 +41,7 @@ namespace TelegramBotExperiments
 				}
 				else
 				{
-					await botClient.SendTextMessageAsync(message.Chat, "if you need help use: --help");
+					await botClient.SendTextMessageAsync(message.Chat, "if you need help use: /help");
 				}
 			}
 		}
