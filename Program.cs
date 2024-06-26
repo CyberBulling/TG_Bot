@@ -10,7 +10,7 @@ namespace TelegramBotExperiments
 {
 	class Program
 	{
-		static ITelegramBotClient bot = new TelegramBotClient("5365199670:AAEt_XClVQH_oCJpsQ1PO6nZqdErZuqWDLw");
+		static ITelegramBotClient bot = new TelegramBotClient("5365199670:AAFbDKq3nZxzyZhGskzPk5XN3eGa_yDMTLI");
 		private static string joke;
 		private static GetRequest request = new GetRequest("https://geek-jokes.sameerkumar.website/api?format=json");
 		public static async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
