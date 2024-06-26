@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = Cyber_Bot1
-build_property.ProjectDir = C:\Users\User\Desktop\CyberBulling\TG_Bot\
+build_property.ProjectDir = c:\Users\Lenovo\C#\TG_Bot\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
